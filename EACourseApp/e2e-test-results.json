@@ -1,0 +1,71 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Opening first page of Application",
+    "line": 1,
+    "id": "opening-first-page-of-application",
+    "tags": [],
+    "uri": "e2e\\features\\featur-list\\firsttest.feature",
+    "elements": [
+      {
+        "id": "opening-first-page-of-application;",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\support\\hooks.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open First Page of Application.",
+            "match": {
+              "location": "e2e\\steps-definitions\\step-def-list\\firsttest.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Get the heading",
+            "match": {
+              "location": "e2e\\steps-definitions\\step-def-list\\firsttest.steps.ts:13"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Click on the first heading",
+            "match": {
+              "location": "e2e\\steps-definitions\\step-def-list\\firsttest.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1186000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
